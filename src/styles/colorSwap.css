@@ -1,0 +1,22 @@
+.color-swap {
+    animation-name: colorSwap;
+    animation-duration: 10000ms;
+  }
+  
+  @keyframes colorSwap {
+    0% {
+      color: red;
+    }
+    25% {
+      color: orange;
+    }
+    50% {
+      color: yellow;
+    }
+    75% {
+      color: grey;
+    }
+    100% {
+      color: white;
+    }
+  }
